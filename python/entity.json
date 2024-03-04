@@ -1,0 +1,142 @@
+[
+    {
+        "model": "person",
+        "properties": [
+            {
+                "slug": "first_name",
+                "type": "string",
+                "value": "elise"
+            },
+            {
+                "slug": "last_name",
+                "type": "string",
+                "value": "barnes"
+            },
+            {
+                "slug": "age",
+                "type": "integer",
+                "value": 32
+            },
+            {
+                "slug": "hair_color",
+                "type": "string",
+                "value": "grey"
+            },
+            {
+                "slug": "eye_color",
+                "type": "string",
+                "value": "green"
+            }
+        ]
+    },
+    {
+        "model": "vehicle",
+        "properties": [
+            {
+                "slug": "make",
+                "type": "string",
+                "value": "toyota"
+            },
+            {
+                "slug": "stolen",
+                "type": "boolean",
+                "value": false
+            },
+            {
+                "slug": "impounded",
+                "type": "boolean",
+                "value": false
+            },
+            {
+                "slug": "year",
+                "type": "integer",
+                "value": 2008
+            }
+        ]
+    },
+    {
+        "model": "case",
+        "properties": [
+            {
+                "slug": "incident_type",
+                "type": "string",
+                "value": "petty theft"
+            },
+            {
+                "slug": "status",
+                "type": "string",
+                "value": "open"
+            },
+            {
+                "slug": "city",
+                "type": "string",
+                "value": "fremont"
+            },
+            {
+                "slug": "year",
+                "type": "integer",
+                "value": 2016
+            }
+        ]
+    },
+    {
+        "model": "person",
+        "properties": [
+            {
+                "slug": "first_name",
+                "type": "string",
+                "value": "elise"
+            },
+            {
+                "slug": "last_name",
+                "type": "string",
+                "value": "walter"
+            },
+            {
+                "slug": "age",
+                "type": "integer",
+                "value": 32
+            },
+            {
+                "slug": "hair_color",
+                "type": "string",
+                "value": "yellow"
+            },
+            {
+                "slug": "eye_color",
+                "type": "string",
+                "value": "blue"
+            }
+        ]
+    },
+    {
+        "model": "person",
+        "properties": [
+            {
+                "slug": "first_name",
+                "type": "string",
+                "value": "brain"
+            },
+            {
+                "slug": "last_name",
+                "type": "string",
+                "value": "Lma"
+            },
+            {
+                "slug": "age",
+                "type": "integer",
+                "value": 32
+            },
+            {
+                "slug": "hair_color",
+                "type": "string",
+                "value": "yellow"
+            },
+            {
+                "slug": "eye_color",
+                "type": "string",
+                "value": "blue"
+            }
+        ]
+    }
+]
