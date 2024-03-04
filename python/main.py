@@ -34,7 +34,7 @@ if __name__ == "__main__":
             setattr(namespace, self.dest, items)
 
     parser.register("action", "extend", ExtendAction)
-    parser.add_argument("-i", "--input-file", default="entity.json", help="The data file to be processed.")
+    parser.add_argument("-i", "--input-file", default="entities.json", help="The data file to be processed.")
     parser.add_argument(
         "-m",
         "--models",
