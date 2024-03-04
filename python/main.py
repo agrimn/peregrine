@@ -19,7 +19,7 @@ def run(data: List[dict], models: List[str], properties: List[str]) -> Dict[str,
         key:value1,value2
     """
     filtered_data = fil.filter_data(data, models, properties)
-    aggregrate = ag.aggregate_data(filtered_data, models, properties)
+    aggregrate = ag.aggregate_data(filtered_data)
     return aggregrate
 
 
